@@ -1,0 +1,9 @@
+
+fruits = ["apple", "banana", "kiwi"]
+countries = ("Canada", "Brazil", "Japan")
+
+list_as_tuple = tuple(fruits)
+tuple_as_list = list(countries)
+
+print(list_as_tuple)
+print(tuple_as_list)
