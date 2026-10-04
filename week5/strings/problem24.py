@@ -1,0 +1,5 @@
+user_string = input("Enter a string: ")
+char_list = list(user_string)
+new_string = "".join(char_list)
+print("List of characters:", char_list)
+print("String reconstructed from list of characters:", new_string)
